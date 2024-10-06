@@ -17,3 +17,4 @@ This repo contains my personal simple projects to improve my coding skills.
 * [Palindrome-Checker](https://raf0411.github.io/simple-beginner-projects/Palindrome-Checker)
 * [Quotes-Generator](https://raf0411.github.io/simple-beginner-projects/Quotes-Generator)
 * [Random-Number-Generator](https://raf0411.github.io/simple-beginner-projects/Random-Number-Generator)
+* [Netflix Clone](https://raf0411.github.io/simple-beginner-projects/Netflix-Clone)
