@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+button, input{
+  font-size: inherit;
+}
+
+body{
+  font-family: 'Arial', sans-serif;
+  background-color: #b155fe;
+  color: #9a4adb;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background-color: white;
+  padding: 4rem 2rem;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.palindrome-input{
+  border: solid;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-width: 0.2rem;
+  border-color: #9a4adb;
+  padding: 0.5rem;
+  outline: none;
+}
+
+.check-button{
+  background-color: #b054fc;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  margin-left: 2rem;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+

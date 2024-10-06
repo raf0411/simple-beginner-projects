@@ -1,0 +1,191 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+body{
+  font-family: Arial;
+  background-color: #ffecd8;
+}
+
+main{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 0.5rem;
+}
+
+.upper-side{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom-side{
+  display: grid;
+  gap: 1rem;
+}
+
+.todo-box{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.todo-date-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-input-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-input{
+  border: none;
+  padding: 0.5rem 0.8rem;
+}
+
+::placeholder{
+  opacity: 0.5;
+}
+
+.date-box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.clear-button{
+  margin-left: 0.5rem;
+  font-weight: 700;
+}
+
+.add-button{
+  border: none;
+  background-color: #4c53f1;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+
+.add-button:active{
+  background-color: hsla(237, 85%, 62%, 0.8);
+}
+
+.delete-button, .clear-button{
+  border: none;
+  background-color: hsla(0, 85%, 62%);
+  color: white;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+
+.delete-button{
+  padding: 0.2rem 0.5rem;
+}
+
+.delete-button:active , .clear-button:active{
+  background-color: hsla(0, 85%, 62%, 0.8);
+}
+
+.day{
+  font-size: 1.1em;
+}
+
+.date{
+  font-size: 0.6em;
+}
+
+.todo-lists{
+  display: grid;
+  gap: 0.8rem;
+}
+
+.name-date-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-name{
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.todo-date{
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.todo-lists input[type='checkbox']{
+  width: 1.5rem;
+  height: 1.5rem;
+  outline: 2px solid #4c53f1;
+}
+
+.due-date-input{
+  color: white;
+  background-color: #4c53f1;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: auto;
+}
+
+.due-date{
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+input::-webkit-calendar-picker-indicator{
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.inner-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}

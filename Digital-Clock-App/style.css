@@ -1,0 +1,39 @@
+body{
+  font-family: 'Orbitron', sans-serif;
+  background-color: black;
+  color: #1cd3fe;
+  padding: 0;
+  margin: 0;
+  /* Centering body */
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.clock-time{
+  font-size: 4em;
+}
+
+.show-button{
+  color: white;
+  border: solid;
+  background-color: transparent;
+  border-color: #1cd3fe;
+  padding: 1rem 4rem;
+  font-size: 2em;
+  border-radius: 4rem;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: inherit;
+}
+
+.show-button:active{
+  background-color: #1cd3fe;
+  color: black;
+}

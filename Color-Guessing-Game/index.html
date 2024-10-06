@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Guessing Game</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="game.js" defer></script>
+</head>
+<body>
+  
+  <main>
+
+    <div class="upper-container" id="bg">
+      <p class="game-title">
+        THE GREAT
+      </p>
+
+      <p class="rgb-color js-rgb-color">
+        rgb
+      </p>
+
+      <p class="game-title">
+        GUESSING GAME
+      </p>
+    </div>
+
+    <div class="options-container">
+      <button class="new-color-button js-new-color-button">
+        NEW COLORS
+      </button>
+
+      <p class="answer-info js-answer-info"></p>
+
+      <div class="difficulties-container">
+        <button class="easy-button js-easy-button">
+          EASY
+        </button>
+        <button class="hard-button js-hard-button active">
+          HARD
+        </button>
+      </div>
+    </div>
+
+    <div class="guesses-container js-guesses-container">
+      <input type="button" class="colors js-colors" id="color-1">
+      <input type="button" class="colors js-colors" id="color-2">
+      <input type="button" class="colors js-colors" id="color-3">
+      <input type="button" class="colors js-colors" id="color-4">
+      <input type="button" class="colors js-colors" id="color-5">
+      <input type="button" class="colors js-colors" id="color-6">
+    </div>
+
+  </main>
+
+</body>
+</html>

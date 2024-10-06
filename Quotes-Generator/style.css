@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+main{
+  font-size: 1em;
+  font-family: sans-serif, 'Arial';
+  background-color: red;
+}
+
+.container{
+  font-size: 2em;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.quotes-from{
+  font-family:'Trebuchet MS';
+}

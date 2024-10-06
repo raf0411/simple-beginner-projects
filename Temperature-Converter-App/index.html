@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="upper-container">
+        <div class="input-container">
+          <label for="">
+            Degrees
+          </label>
+          <input class="degree-input js-degree-input" type="number" placeholder="0">
+        </div>
+        
+        <div class="input-container">
+          <label for="">
+            Type
+          </label>
+          <select class="temp-input js-temp-input" name="" id="">
+            <option value="celcius">Celcius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+          </select>
+        </div>
+        
+        <button class="convert-button js-convert-button">
+          Convert
+        </button>
+      </div>
+      
+      <div class="result-container">
+        <label for="">
+          Result
+        </label>
+        <p class="tmp-result js-tmp-result">
+          0 &deg;C
+        </p>
+      </div>
+    
+    </div>
+  </main>
+</body>
+</html>

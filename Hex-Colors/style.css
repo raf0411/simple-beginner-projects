@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-family: sans-serif;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  text-align: center;
+}
+
+h1{
+  font-size: 2em;
+  text-wrap: wrap;
+  text-transform: uppercase;
+}
+
+button{
+  align-self: center;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 0.5em;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.clr{
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+  gap: 0.5em;
+}
+

@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 1.8em;
+  font-family: sans-serif;
+  
+}
+
+main{
+  font-size: 1em;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.clr-button{
+  background-color: transparent;
+  border: solid;
+  border-width: 0.2em;
+  padding: 0.5em;
+  border-radius: 0.2rem;
+  transition: 0.2s;
+  border-color: grey;
+  cursor: pointer;
+  width: 5rem;
+  height: 3rem;
+}
+
+.clr-button:hover{
+  background-color: grey;
+}

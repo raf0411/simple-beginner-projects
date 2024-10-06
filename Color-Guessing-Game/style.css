@@ -1,0 +1,108 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+  cursor: pointer;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+  background-color: #232323;
+  color: white;
+}
+
+.upper-container{
+  background-color: #2c8e99;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.game-title{
+  font-size: 2em;
+}
+
+.rgb-color{
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.options-container{
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.new-color-button, .easy-button, .hard-button{
+  color: #2c8e99;
+  border: none;
+  padding: 0rem 0.3rem;
+  transition: 0.3s;
+}
+
+.new-color-button:hover, .easy-button:hover, .hard-button:hover{
+  background-color: #2c8e99;
+  color: white;
+}
+
+.active{
+  color: white;
+  background-color: #2c8e99;
+}
+
+.guesses-container{
+  margin: 0 auto;
+  padding-top: 2rem;
+  max-width: 37.5rem;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.colors{
+  width: 12rem;
+  height: 12rem;
+  background-color: cadetblue;
+  border: none;
+  border-radius: 2rem;
+  border: solid;
+  border-color: white;
+}
+
+.wrong-answer{
+  background-color: transparent;
+}
+
+.answer-info{
+  color: #2c8e99;
+}
+
+@media screen and (max-width: 600px) {
+  .guesses-container{
+    grid-template-columns: 1fr;
+  }
+}
