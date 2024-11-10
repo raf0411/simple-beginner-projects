@@ -12,7 +12,6 @@ This repo contains my personal simple projects to improve my coding skills.
 * [Another To Do List App](https://raf0411.github.io/simple-beginner-projects/Another-To-Do-List-App)
 * [Colors](https://raf0411.github.io/simple-beginner-projects/Colors)
 * [Counter-App](https://raf0411.github.io/simple-beginner-projects/Counter-App)
-* [Digital-Clock-App](https://raf0411.github.io/simple-beginner-projects/Digital-Clock-App)
 * [Hex-Colors](https://raf0411.github.io/simple-beginner-projects/Hex-Colors)
 * [Palindrome-Checker](https://raf0411.github.io/simple-beginner-projects/Palindrome-Checker)
 * [Quotes-Generator](https://raf0411.github.io/simple-beginner-projects/Quotes-Generator)
