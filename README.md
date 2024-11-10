@@ -1,4 +1,4 @@
-# SIMPLE-PROJECTS
+# MY SIMPLE PROJECTS
 
 This repo contains my personal simple projects to improve my coding skills.
 
