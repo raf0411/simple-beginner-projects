@@ -3,6 +3,7 @@
 This repo contains my personal simple projects to improve my coding skills.
 
 ## Projects
+* [Linktree Clone](https://raf0411.github.io/simple-beginner-projects/Linktree-Clone)
 * [Calculator](https://raf0411.github.io/simple-beginner-projects/Calculator-App)
 * [Color Guessing Game](https://raf0411.github.io/simple-beginner-projects/Color-Guessing-Game)
 * [Digital Clock App](https://raf0411.github.io/simple-beginner-projects/Digital-Clock-App)
