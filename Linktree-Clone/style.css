@@ -97,7 +97,7 @@ main{
 }
 
 .links-container ul li{
-  min-width: 400px;
+  min-width: 300px;
   text-align: center;
   font-weight: 400;
   padding: 1rem;
@@ -163,4 +163,10 @@ main{
 }
 .profile-image:active{
   transform: scale(1);
+}
+
+@media (min-width: 570px){
+  .links-container ul li{
+    min-width: 500px;
+  }
 }
