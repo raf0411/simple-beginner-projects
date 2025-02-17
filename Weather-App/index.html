@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+      <div class="search-bar-container">
+        <input type="text" placeholder="Enter a city name..." spellcheck="false" class="search-bar search-bar-elm" value="" autocomplete="off">
+        <button class="search-btn search-btn-elm">
+          <img src="weather-app-img/images/search.png" width="15" alt="">
+        </button>
+      </div>
+
+      <div class="error-message error-elm">
+        <p class="city-text">
+          Invalid city name!
+        </p>
+      </div>
+
+      <div class="weather weather-elm">
+        <div class="weather-degrees">
+          <img src="weather-app-img/images/clear.png" width="150" alt="" class="weather-img-elm">
+  
+          <p class="degrees-text degrees-text-elm">
+            22&#8451;
+          </p>
+          <p class="city-text city-text-elm">
+            Bengaluru
+          </p>
+        </div>
+  
+        <div class="weather-info">
+          <div class="bottom-container">
+            <img src="weather-app-img/images/humidity.png" width="50" alt="" class="weather-info-1-elm">
+            <div class="info">
+              <p class="info-number info-number-1-elm">
+                53 &percnt;
+              </p>
+              <p class="info-text info-text-1-elm">
+                Humidity
+              </p>
+            </div>
+            
+          </div>
+  
+          <div class="bottom-container">
+            <img src="weather-app-img/images/wind.png" width="50" alt="" class="weather-info-2-elm">
+            <div class="info">
+              <p class="info-number info-number-2-elm">
+                5.66 km/h
+              </p>
+              <p class="info-text info-text-2-elm">
+                Wind Speed
+              </p>
+            </div>
+            
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+
+</body>
+</html>

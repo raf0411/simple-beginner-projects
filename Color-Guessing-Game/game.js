@@ -157,7 +157,8 @@ function handleDifficulties() {
   const easyButton = document.querySelector('.js-easy-button');
   const hardButton = document.querySelector('.js-hard-button');
 
-  easyButton.addEventListener('click', () => {
+  easyButton.addEventListener('click', (e) => {
+    e.preventDefault();
     if (difficulty === 'hard') {
       max = 3;
       removeColors();
@@ -170,7 +171,8 @@ function handleDifficulties() {
     }
   });
 
-  hardButton.addEventListener('click', () => {
+  hardButton.addEventListener('click', (e) => {
+    e.preventDefault();
     if (difficulty === 'easy') {
       restartPage();
       generateRandomGuesses();
